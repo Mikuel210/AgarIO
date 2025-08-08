@@ -14,7 +14,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="SoundFlow" Version="1.2.0" />
       <PackageReference Include="Spectre.Console" Version="0.50.0" />
+      <PackageReference Include="System.Windows.Extensions" Version="10.0.0-preview.6.25358.103" />
     </ItemGroup>
 
 </Project>
