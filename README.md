@@ -8,28 +8,34 @@ Be careful though, as larger cells want to grow as well. Stay away to avoid bein
 
 ## How to Install
 
-1. Download the build for your OS from the [GitHub Releases](https://github.com/Mikuel210/AgarIO/releases/latest) page. 
+1. Download the build for your OS from the [GitHub Releases](https://github.com/Mikuel210/AgarIO/releases/latest) page
 2. Inside the `publish` folder:
 
-   - **Windows:** Run the `.exe` file.
+   - **Windows:** Run the `.exe` file
    - **macOS / Linux:**
    
-     1. Give the file execute permission:
+     1. Give the file execute permission
         ```bash
         chmod +x AgarIO
         ```
-     2. Run it:
+     2. Run it
         ```bash
         ./AgarIO
         ```
 
-## How to Play
+## How to Uninstall
 
-- Use **WASD** or the **arrow keys** to move your cell
-- Eat **agar** (yellow dots) to grow
-- Press the same direction key twice to **move faster**. Be careful though, as you'll lose size!
-- You can eat smaller cells (red circles) to grow
-- Larger cells (dark red circles) can eat you. Stay away!
+1. Delete the build previously downloaded from the GitHub Releases page
+2. If you want to delete the game data, delete the `AgarIO` folder located in your system's application data directory:
+
+   - Windows
+     ```
+     %APPDATA%\AgarIO
+     ```
+   - macOS / Linux
+     ```
+     ~/.config/AgarIO
+     ```
 
 ## Gallery
 
